@@ -1,0 +1,36 @@
+{
+    "name": "hametuha/login-spam-protection",
+    "description": "A WordPress plugin to protect login screen.",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "scripts": {
+        "lint": [
+            "phpcs --config-set installed_paths $(pwd)/vendor/wp-coding-standards/wpcs",
+            "phpcs --standard=phpcs.ruleset.xml $(find ./ -name '*.php')"
+        ],
+        "fix": [
+            "phpcs --config-set installed_paths $(pwd)/vendor/wp-coding-standards/wpcs",
+            "phpcbf --standard=phpcs.ruleset.xml $(find ./ -name '*.php')"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Hametuha\\LoginSpamProtection\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hametuha INC",
+            "email": "info@hametuha.co.jp"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2|^8"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "~3.3",
+        "wp-coding-standards/wpcs": "~2.0",
+        "yoast/phpunit-polyfills": "^1.0"
+    }
+}
