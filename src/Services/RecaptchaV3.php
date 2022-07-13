@@ -135,8 +135,8 @@ JS;
 		$done = true;
 		wp_enqueue_script( 'google-recaptcha' );
 
-		$key    = esc_js( $this->site_key );
-		$js     = <<<JS
+		$key = esc_js( $this->site_key );
+		$js  = <<<JS
 		grecaptcha.ready(function() {
 			var inputs = document.getElementsByClassName( 'lsp-token-input' );
 			if ( inputs.length ) {
