@@ -1,0 +1,123 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Login Spam Protection\n"
+"POT-Creation-Date: 2022-07-13 14:07+0900\n"
+"PO-Revision-Date: 2022-07-13 14:07+0900\n"
+"Last-Translator: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
+"Language-Team: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: login-spam-protection.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: src/Controllers/Options.php:26 src/Controllers/Options.php:38
+msgid "Login Security"
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:59
+msgid "This site has no proper setting."
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:73
+msgid ""
+"Our spam filter recognize your request as spam. Please retry entering the "
+"login credentials."
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:239
+#, php-format
+msgid ""
+"This site is protected by reCAPTCHA and the Google <a href=\"%1$s\">Privacy "
+"Policy</a> and <a href=\"%2$s\">Terms of Service</a> apply."
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:303
+msgid "Google reCAPTCHA"
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:304
+msgid "Add Google reCAPTCHA v3 to protect your site."
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:307
+msgid "Site Key"
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:308
+msgid "Secret Key"
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:321
+msgid "This value is defined in code."
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:329
+msgid "reCAPTCHA Badge"
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:332
+msgid "Hide reCAPTCHA badge."
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:333
+msgid "Display reCAPTCHA badge"
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:345
+msgid "Attribution Message"
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:353
+#, php-format
+msgid ""
+"Google requested to display attribution text if reCAPTCHA badge is hidden. "
+"%1$s and %2$s will be replaced with URL."
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:360
+msgid "Source Domain"
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:363
+msgid "Load from google.com"
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:364
+msgid "Load from recaptha.net"
+msgstr ""
+
+#: src/Services/RecaptchaV3.php:373
+msgid "If google.com is not accessible, use recaptcha.net"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Login Spam Protection"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugin/login-spam-protection"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A WordPress plguin to protect login screen."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Takahashi_Fumiki"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://hametuha.co.jp"
+msgstr ""
