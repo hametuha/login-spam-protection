@@ -13,6 +13,11 @@ Add Google reCAPTCHA on WordPress' login form.
 
 This plugin add [Google reCAPTCHA v3](https://developers.google.com/recaptcha/docs/v3?hl=ja) to your WordPress login screen. This decreases spam user registration.
 
+### Supported Plugins
+
+- Theme My Login
+- Contact Form 7 (form tag <pre>recaptcha_txt</pre> is available.)
+
 ## Installation
 
 - Search from plugin screen and install.
