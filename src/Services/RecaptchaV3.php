@@ -108,7 +108,7 @@ class RecaptchaV3 extends Singleton {
 		if ( typeof grecaptcha.ready === 'undefined') {
 			grecaptcha.ready = function(cb){
 				if( typeof grecaptcha === 'undefined' ) {
-					const c = '___grecaptcha_cfg';
+					var c = '___grecaptcha_cfg';
 					window[c] = window[c] || {};
 					( window[c]['fns'] = window[c]['fns'] || [] ).push( cb );
 				} else {
